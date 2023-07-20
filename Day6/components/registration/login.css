@@ -1,0 +1,83 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: rgb(15, 14, 14); */
+    /* background-image: url(log.jpg);
+    background-size: cover; */
+    font-family: Arial, sans-serif;
+    
+  }
+  .h{
+    color: #fff;
+  }
+  .login-page h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: rgb(255, 253, 253);
+  }
+  /* body{
+    background-image: url(i1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x:center;
+    background-position-y: -230px;
+  } */
+  .login-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 2rem;
+    background-color: #ffffff00;
+    /* box-shadow: 0 2px 4px rgba(235, 46, 46, 0.804); */
+    border-style:groove;
+    border-color: #fff;
+  
+  }
+  
+  .login-page .form-group {
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  
+  .login-page label {
+    margin-right: 3rem;
+    font-size: 1rem;
+    color: rgb(250, 245, 245);
+  }
+  
+  .login-page input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    /* font-family: cursive; */
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    width: 270px;
+  }
+
+  .login-page .error {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #ff0000;
+  }
+  
+  .login-page .login-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-page .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-page .login-button:focus {
+    outline: none;
+  }
